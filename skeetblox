@@ -308,7 +308,7 @@ coroutine.wrap(pcall)(function()
                 setfpscap(tonumber(_G.Settings["FPS Cap"] or (_G.Settings.Other and _G.Settings.Other["FPS Cap"])))
                 if _G.SendNotifications then
                     StarterGui:SetCore("SendNotification", {
-                        Title = "discord.gg/rips",
+                        Title = "skeetblox",
                         Text = "FPS Capped to " .. tostring(_G.Settings["FPS Cap"] or (_G.Settings.Other and _G.Settings.Other["FPS Cap"])),
                         Duration = 5,
                         Button1 = "Okay"
